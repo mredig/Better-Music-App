@@ -12,7 +12,7 @@
         <!--Artists-->
         <scene sceneID="b4m-C7-Qhp">
             <objects>
-                <tableViewController title="Artists" id="rJe-Kq-gFL" sceneMemberID="viewController">
+                <tableViewController title="Artists" id="rJe-Kq-gFL" customClass="TableViewController" customModule="Better_Music_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Dd3-pq-wKa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
         <!--Albums-->
         <scene sceneID="Vnk-o0-c1h">
             <objects>
-                <tableViewController title="Albums" id="mFY-a7-0Lw" sceneMemberID="viewController">
+                <tableViewController title="Albums" id="mFY-a7-0Lw" customClass="TableViewController" customModule="Better_Music_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3gL-O1-m50">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Songs-->
         <scene sceneID="Wb2-9l-xZ9">
             <objects>
-                <tableViewController title="Songs" id="bfD-Oa-0GU" sceneMemberID="viewController">
+                <tableViewController title="Songs" id="bfD-Oa-0GU" customClass="TableViewController" customModule="Better_Music_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bCR-UQ-fSp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
         <!--Playlists-->
         <scene sceneID="Mko-wg-KO5">
             <objects>
-                <tableViewController title="Playlists" id="9z4-V5-mzq" sceneMemberID="viewController">
+                <tableViewController title="Playlists" id="9z4-V5-mzq" customClass="TableViewController" customModule="Better_Music_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aQJ-UB-Nx5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,7 +169,7 @@
         <!--Genre-->
         <scene sceneID="7xB-pB-dfm">
             <objects>
-                <tableViewController title="Genre" id="VEn-Kz-0wF" sceneMemberID="viewController">
+                <tableViewController title="Genre" id="VEn-Kz-0wF" customClass="TableViewController" customModule="Better_Music_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cQz-zy-Tdm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
