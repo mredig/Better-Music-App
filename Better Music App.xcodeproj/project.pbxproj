@@ -12,6 +12,7 @@
 		338C36A122534E6700A0B802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338C36A022534E6700A0B802 /* Assets.xcassets */; };
 		338C36A422534E6700A0B802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338C36A222534E6700A0B802 /* LaunchScreen.storyboard */; };
 		338C36AC22535B6000A0B802 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C36AB22535B6000A0B802 /* TableViewController.swift */; };
+		338C36AE22535E9D00A0B802 /* MusicCollectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C36AD22535E9D00A0B802 /* MusicCollectionProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		338C36A322534E6700A0B802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338C36A522534E6700A0B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338C36AB22535B6000A0B802 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		338C36AD22535E9D00A0B802 /* MusicCollectionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				338C369922534E6400A0B802 /* AppDelegate.swift */,
 				338C36AB22535B6000A0B802 /* TableViewController.swift */,
+				338C36AD22535E9D00A0B802 /* MusicCollectionProtocols.swift */,
 				338C369D22534E6400A0B802 /* Main.storyboard */,
 				338C36A022534E6700A0B802 /* Assets.xcassets */,
 				338C36A222534E6700A0B802 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				338C369A22534E6400A0B802 /* AppDelegate.swift in Sources */,
 				338C36AC22535B6000A0B802 /* TableViewController.swift in Sources */,
+				338C36AE22535E9D00A0B802 /* MusicCollectionProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5UZAT7KA9;
 				INFOPLIST_FILE = "Better Music App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5UZAT7KA9;
 				INFOPLIST_FILE = "Better Music App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
